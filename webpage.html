@@ -67,16 +67,27 @@
         </div>
         <div class="modal-body">
           <form>
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Name</label>
-              <input type="name" class="form-control" id="exampleInputEmail1" aria-describedby="nameHelp">
-              <div id="nameHelp" class="form-text">Enter your name please.</div>
-            </div>
+            <div class="form-group md-3 text-start">
+              <label class="form-label" for="input_first_name">First Name</label>
+              <input type="text" class="form-control" id="input_first_name" data-val="true" data-val-required="The First Name field is required." name="FirstName" value="">
+              <span class="field-validation-valid" data-valmsg-for="FirstName" data-valmsg-replace="true"></span>
+          </div>
+          <div class="form-group md-3 mt-3">
+              <label class="form-label" for="input_last_name">Last Name</label>
+              <input type="text" class="form-control" id="input_last_name" data-val="true" data-val-required="The Last Name field is required." name="LastName" value="">
+              <span class="field-validation-valid" data-valmsg-for="LastName" data-valmsg-replace="true"></span>
+          </div>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email address</label>
               <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
               <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
             </div>
+            <div class="form-group md-3 mt-3">
+              <label class="form-label" for="input_email_address_confirm">Confirm Email</label>
+              <input type="email" class="form-control" id="input_email_address_confirm" data-val="true" data-val-equalto="'Confirm Email' and 'Confirm Email' do not match." data-val-equalto-other="*.ConfirmEmail" data-val-required="The Confirm Email field is required." name="ConfirmEmail" value="">
+              <span class="field-validation-valid" data-valmsg-for="ConfirmEmail" data-valmsg-replace="true"></span>
+          </div>
+        </br>
             <div class="col-auto">
               <label for="inputPassword2" class="visually-hidden">Password</label>
               <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
