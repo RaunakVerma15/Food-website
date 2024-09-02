@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box-food{
+    background-color:#FFAC1C;
+    color: white;
+    padding-bottom: 0;
+}
+
+#head1{
+    padding: 8px;
+    padding-left: 630px;
+    text-decoration: double;
+    color:white;
+}
+
+#head2{
+    padding-left: 500px;
+    text-decoration: double;
+    color:white;
+    padding-bottom: 0;
+}
+
+#head3{
+    padding-left: 600px;
+    padding-top: 2px;
+    color:white;
+}
+
+.nav2{
+    margin : 0;
+    padding: 0;
+    gap:0;
+    background-color: red;
+}
+.collection{
+    margin: 0;
+    background-color: yellow;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffff;
+    text-shadow: #ffffff;
+    text-decoration: none;;
+    height: 50px;
+    gap: 90px;
+    padding-left: 50px;
+}
+
+body{
+    background-color:  	#FF5F1F;
+}
+.food-box{
+    display :flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    background-color:#FAC898;
+}
+.box{
+    height: 300px;
+    width: 250px;
+    border-radius: 8px;
+    border: 1px solid #ffff;
+    /* display: flex; */
+    margin-left: 45px;
+    margin-top: 60px;
+    gap: 100px;
+} 
+
+.box1{
+    color: #ffff;
+    background-image: url("https://t3.ftcdn.net/jpg/00/70/26/46/360_F_70264619_a6NJ9BcYvtNmuBZoscTEthAFsmhgrNcI.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: relative;
+    /* padding : 40px; */
+}
+
+.box2{
+    color: #ffff;
+    background-image: url("https://www.indianhealthyrecipes.com/wp-content/uploads/2021/04/mango-milkshake-recipe.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: relative;
+    /* padding : 40px; */
+}
+
+.box3{
+    color: #ffff;
+    background-image: url("https://media.istockphoto.com/id/1411323737/photo/a-banana-smoothie-cup-healthy-shake-of-banana-with-milk.webp?b=1&s=612x612&w=0&k=20&c=xVFoW4yZYdg6f25ouIhZun7MfYpJg3pUKT9_lD0IyX8=");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: relative;
+    /* padding : 40px; */
+}
+
+
+.box4{
+    color: #ffff;
+    background-image: url("https://t4.ftcdn.net/jpg/07/04/98/39/360_F_704983944_1zZKWb6ZeD0A1Xih0m403ezMSIu36TCX.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: relative;
+    /* padding : 40px; */
+}
+
+.box5{
+    color: #ffff;
+    background-image: url("https://media.istockphoto.com/id/183338431/photo/pumpkin-spice-latte-on-black.jpg?s=612x612&w=0&k=20&c=sCyVk4Gwzu5pPLbTwuhavbDhG0j3hVQVb3Ydo5epJx8=");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: relative;
+    /* padding : 40px; */
+}
+
+.box6{
+    color: #ffff;
+    background-image: url("https://img.freepik.com/premium-photo/cup-strawberry-milkshake-with-strawberries-it_995470-659.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: relative;
+    margin-bottom: 45px;
+    /* padding : 40px; */
+}
+
+.box7{
+    color: #ffff;
+    background-image: url("https://t4.ftcdn.net/jpg/05/97/20/63/360_F_597206338_W0KVOdfMZyUqwWXtD86eRzp3ps5XoTAA.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: relative;
+    /* padding : 40px; */
+}
+
+
+.box8{
+    color: #ffff;
+    background-image: url("https://media.istockphoto.com/id/1147733805/photo/spiced-buttermilk-indian-traditional-summer-drink.jpg?s=612x612&w=0&k=20&c=R_z5MtYuXElRG2100HyHLviCWG3OKesHgdzQsgwnB5Y=");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: relative;
+    /* padding : 40px; */
+}
+
+.box9{
+    color: #ffff;
+    background-image: url("https://southindianfoods.in/recipe_picture_enlarge/rose-lassi.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: relative;
+    /* padding : 40px; */
+}
+
+
+.box0{
+    color: #ffff;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJWcCSf4ZbvJiGhpMmhYjkfzCCUhP6N7hCBNo0ZJ6N9cwgFkYkEE_RovIWC9HKWoO3xn8&usqp=CAU");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: relative;
+    /* padding : 40px; */
+}
+
+.footer{
+    margin-top: 150px;
+}
+.foot-panel1{
+    background-color: #FFAC1C;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.85rem;
+}
+
+.foot-panel2{
+    padding-top: 15px;
+    background-color: #FFD580;
+    color: #FF7518;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1.3rem;
+}
+/* ul{
+    margin-top: 50px;
+} */
+
+ul a{
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    color : #FF7518;
+    font-size: 1.1rem;
+}
+
+.foot-panel3{
+    background-color: #FFD580;
+    color:  	#FF7518;
+    border-top: 0.5px solid white;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+}
+.foot-panel4{
+    background-color:#FFD580;
+    color:  	#FF7518;
+    height: 100px;
+    font-size: 0.7rem;
+    text-align: center;
+    font-size: 1.5rem;
+    /* margin-top: 0px; */
+   /* display: flex;
+    justify-content: center;
+    align-items: center;  */
+}
+.pages{
+    padding-top: 25px;
+    background-color: #FFD580;
+  
+    
+}
+.copyright{
+    margin-top: 0;
+    background-color:#FFD580;
+    /* padding-top: 5px;*/
+} 
